@@ -3,6 +3,7 @@
 
 
 import copy
+import json
 import os
 import re
 
@@ -10,26 +11,25 @@ import re
 # Effectively set gridLength = 1 such that scaling will work.
 Font.gridSubDivisions = Font.grid
 
-SVG_TEMPLATE = """\
-<svg xmlns="http://www.w3.org/2000/svg" width="{s}" height="{s}" viewBox="0 0 {s} {s}">
-  <path d="{d}"/>
-</svg>\
-"""
-
 
 def main():
+	res = []
 	for glyph in Font.selection:
-		svgPath = os.path.join(
-			os.path.dirname(Font.filepath),
-			"icons",
-			"".join(c + "_" if c.isupper() else c for c in glyph.name) + ".svg"
-		)
-		svgStr = toSvg(glyph.layers[0])
-		with open(svgPath, "w") as f:
-			f.write(svgStr)
+		print(glyph.name)
+		size, path = toSvgPath(glyph.layers[0])
+		res.append({
+			"name": glyph.name,
+			"unicode": glyph.unicode,
+			"size": size,
+			"path": path,
+		})
+
+	jsonPath = os.path.join(os.path.dirname(Font.filepath), "data", "icons.json")
+	with open(jsonPath, "w") as fp:
+		json.dump(res, fp, indent=2)
 
 
-def toSvg(layer: GSLayer) -> str:
+def toSvgPath(layer: GSLayer) -> tuple[int, str]:
 	s = layer.width / Font.grid
 	k = 1 / Font.grid
 
@@ -47,7 +47,8 @@ def toSvg(layer: GSLayer) -> str:
 	newLayer.applyTransform((k, 0, 0, -k, 0, s - 1))
 	path = newLayer.bezierPath
 	del(layer.parent.layers[-1])
-	return SVG_TEMPLATE.format(s=int(s), d=bezierPathToSvgPath(path))
+
+	return int(s), bezierPathToSvgPath(path)
 
 
 def bezierPathToSvgPath(path) -> str:
