@@ -1,5 +1,5 @@
 import { defineComponent, h } from 'vue';
-import * as icons from '../../data/icons.min.json';
+import icons from '../../data/icons.min.json';
 
 const iconSizes = {
   xs: 1,
