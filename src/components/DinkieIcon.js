@@ -39,6 +39,7 @@ export default defineComponent({
           width: size,
           viewBox: `0 0 ${icon.size} ${icon.size}`,
           fill: 'currentColor',
+          class: 'dk-' + props.icon,
         },
         [h('path', { d: icon.path })]
       );
