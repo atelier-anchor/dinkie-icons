@@ -1,4 +1,8 @@
+.DS_Store
+
 *.glyphspackage
 *.glyphs
 
+data/
 icons/
+node_modules/

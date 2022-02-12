@@ -1,0 +1,12 @@
+{
+  "name": "dinkie-icons",
+  "version": "0.1.0",
+  "repository": "https://github.com/atelier-anchor/dinkie-icons.git",
+  "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "devDependencies": {
+    "svgo": "^2.8.0",
+    "vue": "^3.2.31"
+  }
+}
