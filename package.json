@@ -4,7 +4,14 @@
   "repository": "https://github.com/atelier-anchor/dinkie-icons.git",
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "components",
+    "data"
+  ],
   "devDependencies": {
     "svgo": "^2.8.0",
     "vue": "^3.2.31"
