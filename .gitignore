@@ -3,6 +3,6 @@
 *.glyphspackage
 *.glyphs
 
-data/
-icons/
 node_modules/
+dist/
+temp/

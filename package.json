@@ -1,19 +1,15 @@
 {
-  "name": "dinkie-icons",
-  "version": "0.1.1",
-  "repository": "https://github.com/atelier-anchor/dinkie-icons.git",
-  "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
+  "name": "@dinkie-icons/root",
+  "version": "0.2.0",
+  "private": true,
   "license": "MIT",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "components",
-    "data"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atelier-anchor/dinkie-icons.git"
+  },
+  "type": "module",
   "devDependencies": {
-    "svgo": "^2.8.0",
-    "vue": "^3.2.31"
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9"
   }
 }

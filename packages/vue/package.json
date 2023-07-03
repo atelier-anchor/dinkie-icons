@@ -1,0 +1,41 @@
+{
+  "name": "@dinkie-icons/vue",
+  "version": "0.2.0",
+  "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atelier-anchor/dinkie-icons.git",
+    "directory": "packages/vue"
+  },
+  "bugs": {
+    "url": "https://github.com/atelier-anchor/dinkie-icons/issues"
+  },
+  "files": [
+    "dist/*.{js,cjs}",
+    "dist/index.d.ts"
+  ],
+  "type": "module",
+  "module": "./dist/dinkie-icons-vue.js",
+  "main": "./dist/dinkie-icons-vue.js",
+  "exports": {
+    ".": {
+      "import": "./dist/dinkie-icons-vue.js",
+      "require": "./dist/dinkie-icons-vue.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "generate": "tsx scripts/build.ts",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^3.0.2"
+  }
+}
