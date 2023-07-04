@@ -10,6 +10,7 @@ export default defineConfig({
       fileName: 'dinkie-icons-react',
       formats: ['es', 'cjs'],
     },
+    minify: false,
     rollupOptions: {
       external: ['react', 'react/jsx-runtime'],
     },

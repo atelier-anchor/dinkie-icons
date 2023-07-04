@@ -9,6 +9,7 @@ export default defineConfig({
       fileName: 'dinkie-icons-vue',
       formats: ['es', 'cjs'],
     },
+    minify: false,
     rollupOptions: {
       external: ['vue'],
     },
