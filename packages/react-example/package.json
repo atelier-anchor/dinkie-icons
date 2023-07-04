@@ -1,0 +1,30 @@
+{
+  "name": "@dinkie-icons/react-example",
+  "version": "0.2.0",
+  "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atelier-anchor/dinkie-icons.git",
+    "directory": "packages/react-example"
+  },
+  "bugs": {
+    "url": "https://github.com/atelier-anchor/dinkie-icons/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@dinkie-icons/react": "workspace:^",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}

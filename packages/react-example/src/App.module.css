@@ -1,0 +1,19 @@
+.App {
+  font-family: 'system-ui', -apple-system, sans-serif;
+  padding: 1rem;
+  --pixel-size: 0.25rem;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.Icon10 {
+  width: calc(10 * var(--pixel-size));
+}
+
+.Icon12 {
+  width: calc(12 * var(--pixel-size));
+}
