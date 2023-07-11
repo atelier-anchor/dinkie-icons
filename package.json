@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/root",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "license": "MIT",
   "repository": {
@@ -8,8 +8,12 @@
     "url": "git+https://github.com/atelier-anchor/dinkie-icons.git"
   },
   "type": "module",
+  "scripts": {
+    "generate-src": "node glyphs/generate-src.js"
+  },
   "devDependencies": {
+    "svgo": "^3.0.2",
     "typescript": "^5.1.6",
-    "vite": "^4.3.9"
+    "vite": "^4.4.2"
   }
 }

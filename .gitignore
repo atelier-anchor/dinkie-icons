@@ -2,7 +2,12 @@
 
 *.glyphspackage
 *.glyphs
+*.timestamp-*.mjs
 
 node_modules/
 dist/
 temp/
+
+glyphs/icons.json
+packages/react/src/icons.tsx
+packages/vue/src/icons.ts

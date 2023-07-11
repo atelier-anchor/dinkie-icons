@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/react",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -12,8 +12,7 @@
     "url": "https://github.com/atelier-anchor/dinkie-icons/issues"
   },
   "files": [
-    "dist/*.{js,cjs}",
-    "dist/index.d.ts"
+    "dist/"
   ],
   "type": "module",
   "module": "./dist/dinkie-icons-react.js",
@@ -26,18 +25,17 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "generate": "tsx scripts/build.ts",
     "build": "vite build"
   },
   "dependencies": {
-    "@types/react": "^18.0.37",
+    "@types/react": "^18.2.14",
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.3.3",
-    "@vitejs/plugin-react": "^4.0.0",
+    "@types/node": "^20.4.1",
+    "@vitejs/plugin-react": "^4.0.3",
     "typescript": "^5.1.6",
-    "vite": "^4.3.9",
-    "vite-plugin-dts": "^3.0.2"
+    "vite": "^4.4.2",
+    "vite-plugin-dts": "^3.2.0"
   }
 }

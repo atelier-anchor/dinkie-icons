@@ -12,7 +12,7 @@ import re
 Font.gridSubDivisions = Font.grid
 
 
-def main():
+def main(jsonPath: str):
 	res = []
 	for glyph in Font.selection:
 		print(glyph.name)
@@ -24,8 +24,7 @@ def main():
 			"path": path,
 		})
 
-	jsonPath = os.path.join(os.path.dirname(Font.filepath), "data", "icons.json")
-	with open(jsonPath, "w") as fp:
+	with open(os.path.join(os.path.dirname(Font.filepath), jsonPath), "w") as fp:
 		json.dump(res, fp, indent=2)
 
 
@@ -52,7 +51,7 @@ def toSvgPath(layer: GSLayer) -> tuple[int, str]:
 
 
 def bezierPathToSvgPath(path) -> str:
-	lines = re.split(r"\s*\n\s*", path.__repr__())
+	lines = re.split(r"\s*\n\s*", repr(path))
 	return " ".join(sub(line) for line in lines[3:])
 
 
@@ -64,4 +63,4 @@ def sub(s: str) -> str:
 	return s
 
 
-main()
+main(jsonPath="icons.json")
