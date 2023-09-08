@@ -1,0 +1,228 @@
+{
+glyphname = buildingConstruction;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (10,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,-10);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 120;
+}
+);
+unicode = 127959;
+}

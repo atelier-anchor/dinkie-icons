@@ -1,0 +1,161 @@
+{
+glyphname = musicalNote.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,20);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 100;
+}
+);
+}

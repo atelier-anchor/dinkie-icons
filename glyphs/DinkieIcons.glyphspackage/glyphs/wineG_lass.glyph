@@ -1,0 +1,218 @@
+{
+glyphname = wineGlass;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (30,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,30);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 120;
+}
+);
+unicode = 127863;
+}

@@ -1,0 +1,188 @@
+{
+glyphname = mobilePhone;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (30,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,-10);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 120;
+}
+);
+unicode = 128241;
+}

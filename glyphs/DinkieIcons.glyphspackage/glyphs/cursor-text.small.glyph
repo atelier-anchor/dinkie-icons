@@ -1,0 +1,87 @@
+{
+glyphname = "cursor-text.small";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (40,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 100;
+}
+);
+}

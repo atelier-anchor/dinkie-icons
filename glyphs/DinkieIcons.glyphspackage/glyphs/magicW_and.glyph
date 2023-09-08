@@ -1,0 +1,157 @@
+{
+glyphname = magicWand;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,20);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 120;
+}
+);
+unicode = 129668;
+}

@@ -1,0 +1,162 @@
+{
+glyphname = bilibili.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (10,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,70);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 100;
+}
+);
+}

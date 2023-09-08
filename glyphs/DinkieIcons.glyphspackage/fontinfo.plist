@@ -1,0 +1,63 @@
+{
+.appVersion = "3217";
+.formatVersion = 3;
+date = "2021-08-25 07:43:53 +0000";
+familyName = "Dinkie Icons";
+fontMaster = (
+{
+customParameters = (
+{
+name = "Default Layer Width";
+value = "120";
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 100;
+},
+{
+pos = 70;
+},
+{
+pos = 50;
+},
+{
+},
+{
+pos = -20;
+}
+);
+name = Regular;
+visible = 1;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+settings = {
+disablesNiceNames = 1;
+gridLength = 10;
+keepAlternatesTogether = 1;
+};
+unitsPerEm = 120;
+userData = {
+GSDontShowVersionAlert = 1;
+};
+versionMajor = 1;
+versionMinor = 0;
+}

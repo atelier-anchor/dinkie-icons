@@ -1,0 +1,117 @@
+{
+glyphname = label.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,30);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 100;
+}
+);
+}

@@ -1,0 +1,177 @@
+{
+glyphname = scan;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (90,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,40);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 120;
+}
+);
+}

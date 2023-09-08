@@ -1,0 +1,137 @@
+{
+glyphname = filter.small;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (30,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,0);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 100;
+}
+);
+}

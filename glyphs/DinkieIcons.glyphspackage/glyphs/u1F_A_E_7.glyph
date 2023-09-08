@@ -1,0 +1,155 @@
+{
+category = Symbol;
+glyphname = u1FAE7;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,80);
+ref = pixel;
+}
+);
+vertWidth = 0;
+width = 120;
+}
+);
+subCategory = Emoji;
+unicode = 129767;
+}
