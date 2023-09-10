@@ -1,5 +1,4 @@
 {
-category = Symbol;
 glyphname = u1FAE5;
 layers = (
 {
@@ -135,6 +134,5 @@ vertWidth = 0;
 width = 120;
 }
 );
-subCategory = Emoji;
 unicode = 129765;
 }

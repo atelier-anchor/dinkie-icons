@@ -1,5 +1,4 @@
 {
-category = Symbol;
 glyphname = "ko_ko-kata.box.filled";
 layers = (
 {
@@ -504,5 +503,5 @@ vertWidth = 0;
 width = 120;
 }
 );
-subCategory = "";
+script = "";
 }

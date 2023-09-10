@@ -228,6 +228,11 @@ ref = pixel;
 alignment = -1;
 pos = (60,30);
 ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,50);
+ref = pixel;
 }
 );
 vertWidth = 0;

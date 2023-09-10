@@ -1,5 +1,4 @@
 {
-category = Symbol;
 glyphname = u1FAAA.small;
 layers = (
 {
@@ -195,5 +194,4 @@ vertWidth = 0;
 width = 100;
 }
 );
-subCategory = Emoji;
 }

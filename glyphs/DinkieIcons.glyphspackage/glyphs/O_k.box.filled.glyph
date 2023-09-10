@@ -493,5 +493,4 @@ vertWidth = 0;
 width = 120;
 }
 );
-script = latin;
 }

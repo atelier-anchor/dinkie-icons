@@ -308,5 +308,6 @@ vertWidth = 0;
 width = 120;
 }
 );
+script = "";
 unicode = 127542;
 }
