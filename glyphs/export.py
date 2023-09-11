@@ -8,21 +8,21 @@ import os
 import re
 
 
-# Effectively set gridLength = 1 such that scaling will work.
-Font.gridSubDivisions = Font.grid
-
-
 def main(jsonPath: str):
 	res = []
-	for glyph in Font.selection:
+	glyphs = Font.selection if Font.selection else (g for g in Font.glyphs if g.export)
+
+	# Effectively set gridLength = 1 such that scaling will work.
+	Font.gridSubDivisions = Font.grid
+	for glyph in glyphs:
 		print(glyph.name)
 		size, path = toSvgPath(glyph.layers[0])
 		res.append({
 			"name": glyph.name,
-			"unicode": glyph.unicode,
 			"size": size,
 			"path": path,
 		})
+	Font.gridSubDivisions = 1
 
 	with open(os.path.join(os.path.dirname(Font.filepath), jsonPath), "w") as fp:
 		json.dump(res, fp, indent=2)
@@ -63,4 +63,4 @@ def sub(s: str) -> str:
 	return s
 
 
-main(jsonPath="icons.json")
+main(jsonPath="glyphs.json")
