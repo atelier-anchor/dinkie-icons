@@ -9,7 +9,8 @@
   },
   "type": "module",
   "scripts": {
-    "generate-src": "node glyphs/generate-src.js"
+    "generate-src": "node glyphs/generate-src.js",
+    "build": "pnpm -r --filter=./packages/** run build"
   },
   "devDependencies": {
     "svgo": "^3.0.2",

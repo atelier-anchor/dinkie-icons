@@ -1,0 +1,18 @@
+name: build
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build Dinkie Icons
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+            node-version: 18
+      - uses: pnpm/action-setup@v2
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build
+        run: |
+          pnpm generate-src
+          pnpm build
