@@ -4,7 +4,8 @@ import { fileURLToPath } from 'url'
 import { optimize } from 'svgo'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
-const iconsPath = join(__dirname, 'icons.json')
+const iconsPath = join(__dirname, 'icons.csv')
+const glyphsPath = join(__dirname, 'glyphs.json')
 const vueSrcPath = join(__dirname, '../packages/vue/src/icons.ts')
 const reactSrcPath = join(__dirname, '../packages/react/src/icons.tsx')
 
@@ -22,11 +23,13 @@ import type { DinkieIconProps } from './index'
 const optimizePath = (path) =>
   optimize(`<path d="${path}"/>`).data.replace(/<path d="(.+)"\/>/g, '$1')
 
+const basename = (glyph) => glyph.replace('.small', '').replace('.filled', '')
 const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1)
-const toComponentName = (name) =>
+const toComponentName = (map, glyph) =>
   'DinkieIcon' +
-  capitalize(name).replace('.small', '').replace('.filled', 'Filled').replace('.alt', 'Alt') +
-  (name.match('.small') ? '10' : '12')
+  map.get(basename(glyph)).split('-').map(capitalize).join('') +
+  (glyph.includes('.filled') ? 'Filled' : '') +
+  (glyph.includes('.small') ? '10' : '12')
 
 const generateVueComponent = ({ name, size, path }) => `
 export const ${name}: DefineComponent<DinkieIconProps> = defineComponent({
@@ -47,11 +50,19 @@ export const ${name} = ({ className }: DinkieIconProps) => (
 `
 
 const main = () => {
-  const icons = JSON.parse(readFileSync(iconsPath, 'utf8')).map(({ name, size, path }) => ({
-    name: toComponentName(name),
-    size,
-    path: optimizePath(path),
-  }))
+  const glyphNameMap = new Map(
+    readFileSync(iconsPath, 'utf8')
+      .split('\n')
+      .slice(1)
+      .map((line) => line.split(',').slice(0, 2).reverse())
+  )
+  const icons = Object.entries(JSON.parse(readFileSync(glyphsPath, 'utf8'))).map(
+    ([glyph, path]) => ({
+      name: toComponentName(glyphNameMap, glyph),
+      size: glyph.includes('.small') ? 10 : 12,
+      path: optimizePath(path),
+    })
+  )
   writeFileSync(vueSrcPath, banner + vueImports + icons.map(generateVueComponent).join(''))
   writeFileSync(reactSrcPath, banner + reactImports + icons.map(generateReactComponent).join(''))
 }

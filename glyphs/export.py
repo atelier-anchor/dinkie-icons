@@ -9,19 +9,15 @@ import re
 
 
 def main(jsonPath: str):
-	res = []
+	res = {}
 	glyphs = Font.selection if Font.selection else (g for g in Font.glyphs if g.export)
 
 	# Effectively set gridLength = 1 such that scaling will work.
 	Font.gridSubDivisions = Font.grid
 	for glyph in glyphs:
 		print(glyph.name)
-		size, path = toSvgPath(glyph.layers[0])
-		res.append({
-			"name": glyph.name,
-			"size": size,
-			"path": path,
-		})
+		path = toSvgPath(glyph.layers[0])
+		res[glyph.name] = path
 	Font.gridSubDivisions = 1
 
 	with open(os.path.join(os.path.dirname(Font.filepath), jsonPath), "w") as fp:
@@ -47,7 +43,7 @@ def toSvgPath(layer: GSLayer) -> tuple[int, str]:
 	path = newLayer.bezierPath
 	del(layer.parent.layers[-1])
 
-	return int(s), bezierPathToSvgPath(path)
+	return bezierPathToSvgPath(path)
 
 
 def bezierPathToSvgPath(path) -> str:
