@@ -5,18 +5,18 @@ import {
   DinkieIconBird12,
   DinkieIconBirdFilled12,
   DinkieIconSmirkingFace12,
-  DinkieIconTwitter12,
-  DinkieIconTwitter10,
+  DinkieIconBrandTwitter12,
+  DinkieIconBrandTwitter10,
 } from '@dinkie-icons/vue'
 </script>
 
 <template>
   <div class="App">
-    <h1>Dinkie Icons</h1>
+    <h1>Dinkie Icons (Vue)</h1>
     <h2>9&times;9</h2>
     <div class="Container">
       <DinkieIconCherries10 class="Icon10" />
-      <DinkieIconTwitter10 class="Icon10" />
+      <DinkieIconBrandTwitter10 class="Icon10" />
     </div>
     <h2>11&times;11</h2>
     <div class="Container">
@@ -24,7 +24,7 @@ import {
       <DinkieIconBird12 class="Icon12" />
       <DinkieIconBirdFilled12 class="Icon12" />
       <DinkieIconSmirkingFace12 class="Icon12" />
-      <DinkieIconTwitter12 class="Icon12" />
+      <DinkieIconBrandTwitter12 class="Icon12" />
     </div>
   </div>
 </template>
