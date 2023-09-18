@@ -6,6 +6,7 @@ import copy
 import json
 import os
 import re
+import subprocess
 
 
 def main(jsonPath: str):
@@ -19,6 +20,8 @@ def main(jsonPath: str):
 		path = toSvgPath(glyph.layers[0])
 		res[glyph.name] = path
 	Font.gridSubDivisions = 1
+
+	res = optimize(res)
 
 	with open(os.path.join(os.path.dirname(Font.filepath), jsonPath), "w") as fp:
 		json.dump(res, fp, indent=2)
@@ -59,4 +62,13 @@ def sub(s: str) -> str:
 	return s
 
 
-main(jsonPath="glyphs.json")
+def optimize(res: dict[str, str]) -> dict[str, str]:
+	svg = "".join(f"<path d=\"{path}\"/>" for path in res.values())
+	output = subprocess.run(["svgo", "-s", svg], capture_output=True).stdout.decode()
+	return dict(zip(res.keys(), output.split("\"")[1:-1:2]))
+
+
+if __name__ == "__main__":
+	if "/usr/local/bin/" not in os.environ["PATH"]:
+		os.environ["PATH"] = os.environ["PATH"] + ":/usr/local/bin/"
+	main(jsonPath="glyphs.json")

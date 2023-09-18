@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { fileURLToPath } from 'url'
-import { optimize } from 'svgo'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const iconsPath = join(__dirname, 'icons.csv')
@@ -19,9 +18,6 @@ const reactImports = `
 import React from 'react'
 import type { DinkieIconProps } from './index'
 `
-
-const optimizePath = (path) =>
-  optimize(`<path d="${path}"/>`).data.replace(/<path d="(.+)"\/>/g, '$1')
 
 const basename = (glyph) => glyph.replace('.small', '').replace('.filled', '')
 const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1)
@@ -60,7 +56,7 @@ const main = () => {
     ([glyph, path]) => ({
       name: toComponentName(glyphNameMap, glyph),
       size: glyph.includes('.small') ? 10 : 12,
-      path: optimizePath(path),
+      path,
     })
   )
   writeFileSync(vueSrcPath, banner + vueImports + icons.map(generateVueComponent).join(''))
