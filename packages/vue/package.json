@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/vue",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -31,7 +31,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@types/node": "^20.6.2",
+    "@types/node": "^20.6.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
     "vite-plugin-dts": "^3.5.3"
