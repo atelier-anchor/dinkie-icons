@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/react-example",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
@@ -20,12 +20,12 @@
   },
   "devDependencies": {
     "@dinkie-icons/react": "workspace:^",
-    "@types/react": "^18.2.22",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.4",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.5.0"
   }
 }
