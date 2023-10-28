@@ -1,5 +1,5 @@
 {
-glyphname = deliveryTruck.small;
+glyphname = deliveryTruck.small.filled;
 layers = (
 {
 layerId = m01;
@@ -91,6 +91,31 @@ ref = pixel;
 },
 {
 alignment = -1;
+pos = (40,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,20);
+ref = pixel;
+},
+{
+alignment = -1;
 pos = (50,70);
 ref = pixel;
 },
@@ -101,7 +126,62 @@ ref = pixel;
 },
 {
 alignment = -1;
+pos = (60,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,60);
+ref = pixel;
+},
+{
+alignment = -1;
 pos = (70,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,30);
 ref = pixel;
 },
 {
@@ -122,6 +202,16 @@ ref = pixel;
 {
 alignment = -1;
 pos = (0,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,20);
 ref = pixel;
 },
 {
