@@ -28,12 +28,12 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.3.7"
+    "vue": "^3.3.13"
   },
   "devDependencies": {
-    "@types/node": "^20.8.9",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0",
-    "vite-plugin-dts": "^3.6.2"
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.7.0"
   }
 }
