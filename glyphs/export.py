@@ -69,6 +69,10 @@ def optimize(res: dict[str, str]) -> dict[str, str]:
 
 
 if __name__ == "__main__":
-	if "/usr/local/bin/" not in os.environ["PATH"]:
-		os.environ["PATH"] = os.environ["PATH"] + ":/usr/local/bin/"
+	for path in [
+		"/usr/local/bin/",
+		"/opt/homebrew/bin/",
+	]:
+		if path not in os.environ["PATH"]:
+			os.environ["PATH"] = os.environ["PATH"] + ":" + path
 	main(jsonPath="glyphs.json")
