@@ -1,0 +1,197 @@
+{
+glyphname = shark;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,90);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,80);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,30);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (70,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (50,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,60);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (10,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (20,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,70);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (90,20);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (80,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,-10);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (30,50);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (40,40);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (60,30);
+ref = pixel;
+}
+);
+width = 120;
+}
+);
+unicode = 129416;
+}
