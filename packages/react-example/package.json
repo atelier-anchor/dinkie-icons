@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/react-example",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "private": true,
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@dinkie-icons/react": "workspace:^",
-    "@types/react": "^18.2.45",
+    "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
     "react": "^18.2.0",
