@@ -28,14 +28,14 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@types/react": "^18.2.64",
-    "react": "^18.2.0"
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.25",
-    "@vitejs/plugin-react": "^4.2.1",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.5",
-    "vite-plugin-dts": "^3.7.3"
+    "@types/node": "^20.12.12",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1"
   }
 }

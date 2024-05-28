@@ -20,11 +20,11 @@
   },
   "devDependencies": {
     "@dinkie-icons/vue": "workspace:^",
-    "@types/node": "^20.11.25",
+    "@types/node": "^20.12.12",
     "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.5",
-    "vue": "^3.4.21",
-    "vue-tsc": "^2.0.6"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue": "^3.4.27",
+    "vue-tsc": "^2.0.19"
   }
 }
