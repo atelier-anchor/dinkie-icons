@@ -20,10 +20,10 @@
   "exports": {
     ".": {
       "import": "./dist/dinkie-icons-react.js",
-      "require": "./dist/dinkie-icons-react.cjs"
+      "require": "./dist/dinkie-icons-react.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
-  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "vite build"
   },
