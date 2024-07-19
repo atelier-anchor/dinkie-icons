@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/react",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -32,10 +32,10 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "@vitejs/plugin-react": "^4.3.0",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11",
-    "vite-plugin-dts": "^3.9.1"
+    "@types/node": "^20.14.11",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4",
+    "vite-plugin-dts": "4.0.0-beta.1"
   }
 }

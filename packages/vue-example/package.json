@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/vue-example",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "private": true,
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
@@ -20,11 +20,11 @@
   },
   "devDependencies": {
     "@dinkie-icons/vue": "workspace:^",
-    "@types/node": "^20.12.12",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11",
-    "vue": "^3.4.27",
-    "vue-tsc": "^2.0.19"
+    "@types/node": "^20.14.11",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4",
+    "vue": "^3.4.33",
+    "vue-tsc": "^2.0.26"
   }
 }

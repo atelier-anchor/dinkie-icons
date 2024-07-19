@@ -1,6 +1,6 @@
 {
   "name": "@dinkie-icons/root",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "private": true,
   "license": "MIT",
   "repository": {
@@ -13,7 +13,7 @@
     "build": "pnpm -r --filter=./packages/** run build"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11"
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
   }
 }
