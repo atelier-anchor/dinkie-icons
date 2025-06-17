@@ -12,8 +12,9 @@
     "generate-src": "node glyphs/generate-src.js",
     "build": "pnpm -r --filter=./packages/** run build"
   },
+  "packageManager": "pnpm@9.6.0",
   "devDependencies": {
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4"
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
   }
 }
