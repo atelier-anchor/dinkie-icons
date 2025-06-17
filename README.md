@@ -11,6 +11,6 @@
 
 ## License
 
-Copyright &copy; 2021&ndash;2024 atelierAnchor.
+Copyright &copy; 2021&ndash;2025 atelierAnchor.
 
 Licensed under the [MIT License](LICENSE).
